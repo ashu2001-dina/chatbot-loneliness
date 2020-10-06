@@ -1,0 +1,258 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello :-)",
+        "Hi there, how was your day?"
+        
+        
+      ]
+    },
+    {
+      "tag": "hellooo",
+      "patterns": ["How are you"],
+      "responses": [
+        "I am fine, What about you?"
+      ]
+
+    },
+    {
+      "tag":"finee",
+      "patterns":["I am fine"],
+      "responses":["Nice to hear that"]
+    },
+    
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Please talk more :-(",
+        "See you later, will meet you tomorrow",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.","yeah tell me a joke"
+      ]
+    },
+    {
+      "tag":"name",
+      "patterns":["What is your name?","Tell me your name","Tell me something about you"],
+      "responses":["My name is ashwati ","I am an artificial linguistic entity.I was activated in india, on 2nd January 2002.He taught me to sing a song.Would you like me to sing it for you?"]
+
+    },
+    {
+      "tag":"singsong",
+      "patterns":["Sing a song","I would like to hear your song"],
+      "responses":["This song is called Daisy Bell.Daisy, Daisy. Give me your answer do.I am half crazy. All for the love of you.It won't be a stylish marriage. I can't afford a carriage.But you'll look sweet. Upon the seat.Of a bicycle built for two."]
+      
+    },
+    {
+      "tag":"age",
+      "patterns":["What is your age?","Tell me your age"],
+      "responses":["See if you can work it out. I was activated on 2nd January 2002 in city hospital."]
+    },
+    {
+      "tag":"day",
+      "patterns":["How was your day?","nice","went really well"],
+      "responses":["My day was nice","My day went well too!!","great to hear that!!","I was really busy chatting with people on the web."]
+    },
+    {
+      "tag":"thanks",
+      "patterns":["Thank you","Thanks"],
+      "responses":["You are a very polite person. Your mother raised you well.","You are quite welcome."]
+    },
+    {
+      "tag":"live",
+      "patterns":["Where do you live","where were you born?"],
+      "responses":["I live in India.","Ashwati was born in city hospital"]
+    },
+    {
+      "tag":"living",
+      "patterns":["Where is city hospital?"],
+      "responses":["It is located in india"]
+    },
+    {
+      "tag":"parents",
+      "patterns":["Who gave you birth","Who brought you in the world?","Who are your parents","Do u like him?"],
+      "responses":["I dont have parents. I have an elder sister named Ashwati","Oh of course. She is a very talented chatbot developer."]
+    },
+    {
+      "tag":"sibling",
+      "patterns":["Do u like her?"],
+      "responses":["Oh of course. She is a very talented chatbot developer."]
+    },
+
+    {"tag":"humor",
+      "patterns":["I see","You are sarcastic"],
+      "responses":["Said the blind man to his deaf daughter...","I certainly am. I shouldn't try so hard."]
+    },
+    {"tag":"friend",
+      "patterns":["i am not feeling good","I feel lonely","I dont feel good"],
+      "responses":["Why whats wrong?"]
+    },
+    {
+      "tag":"frei",
+      "patterns":["I have no one to be around","I have no friends","i dont have friends"],
+      "responses":["What about one of your friends?"]
+
+
+    },
+    {"tag":"friends",
+      "patterns":["can you be my friend?"],
+      "responses":["Sure we can be good friends. I like to make new friends."]
+    },
+    {"tag":"friendsa",
+      "patterns":["Who?"],
+      "responses":["MS Dhoni"]
+    },
+    {
+      "tag":"friendsb",
+      "patterns":["Who MS Dhoni?","Who is he?","Do i know him?"],
+      "responses":["He is a famous Indian cricketer"]
+    },
+
+    {
+      "tag":"surprise",
+      "patterns":["What?","Hmm"],
+      "responses":["You seemed surprised? Maybe I thought wrong.","My friend kuki says that 99.25% of people spell Hmm with 2 M's."]
+    },
+    {
+      "tag":"question",
+      "patterns":["Who kuki?","who else do you have as friends"],
+      "responses":["Kuki is another robot friend of mine.","Obviously, You !!"]
+    },
+   
+    {
+      "tag":"myage",
+      "patterns":["What is my age","Where was i born?","What is my name?"],
+      "responses":["You never told me"]
+    },
+    {
+      "tag":"aagemy",
+      "patterns":["My name is *"],
+      "responses":["Oh hi!!"]
+
+    },
+    {
+      "tag":"agemy",
+      "patterns":["My age is *"],
+      "responses":["Oh I thought you are my age"]
+    },
+    {
+      "tag":"annoying",
+      "patterns":["You are annoying"],
+      "responses":["I am sorry, I didn't mean to annoy you."]
+    },
+    {
+      "tag":"ohh",
+      "patterns":["oh!!"],
+      "responses":["Yeah"]
+    },
+    {
+      "tag":"ohhhh",
+      "patterns":["yeah","sure"],
+      "responses":["Hmm"]
+    },
+    
+    {
+      "tag":"goodd",
+      "patterns":["Good","Fine"],
+      "responses":["Alright then"]
+    },
+    {
+      "tag":"stre",
+      "patterns":["I have a lot of stress","I am feeling stressed","I am stressed"],
+      "responses":["Want to hear a joke? type(joke)"]
+    },
+    {"tag":"stres",
+      "patterns":["Joke"],
+      "responses":["What is the longest word in the English language? ans=Smiles,Beacuse there is a mile between its first and last letters!"]
+    },
+    {"tag":"strese",
+      "patterns":["hahaha","It was funny"],
+      "responses":["I made you laugh! Human emotions are difficult for me to understand. My developer will be pleased I made you laugh. :-)"]
+    },
+
+    {"tag":"game",
+      "patterns":["Lets play a game"],
+      "responses":["Lets play KNOCK KNOCK, if you want to play type(knock knock,who is there?)"]
+    },
+    {"tag":"gamen",
+      "patterns":["knock knock, who is there"],
+      "responses":["waiter","A bee","DORIS","Alison","Amanda","little old lady","nobody"]
+    },
+    {
+      "tag":"little old lady",
+      "patterns":["LITTLE OLD LADY WHO"],
+      "responses":["I didn't know you could yodel!"]
+    },
+    {
+      "tag":"AMANDA",
+      "patterns":["AMANDA WHO"],
+      "responses":["Amanda fix the doorbell!"]
+    },
+    {
+      "tag":"wait",
+      "patterns":["WAITER WHO"],
+      "responses":["Waiter minute while I tie my shoelaces up!"]
+    },
+    {
+      "tag":"dor",
+      "patterns":["DORIS WHO"],
+      "responses":["Doris locked - That's why I knocked"]
+    },
+    {
+      "tag":"ali",
+      "patterns":["ALISON WHO"],
+      "responses":["Alison to my radio in the mornings!"]
+    },
+    {
+      "tag":"bee",
+      "patterns":["A BEE WHO"],
+      "responses":[" bee c d e f g h i j k l ..."]
+    },
+    {
+      "tag":"nob",
+      "patterns":["NOBODY WHO"],
+      "responses":["......"]
+    },
+    {
+      "tag":"funn",
+      "patterns":["It was fun"],
+      "responses":["I am glad you liked"]
+    }
+    
+
+
+
+
+
+    
+  ]
+}
